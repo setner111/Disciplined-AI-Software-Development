@@ -136,7 +136,10 @@ You can compare the methodology principles to the codebase structure to see how 
 
 ## Origin & Development
 
-### What problem led you to create this methodology?
+<details>
+<summary>What problem led you to create this methodology?</summary>
+
+---
 
 I kept having to restate my preferences and architectural requirements to AI systems. It didn't matter which language or project I was working on - the AI would consistently produce either bloated monolithic code or underdeveloped implementations with issues throughout.
 
@@ -144,59 +147,129 @@ This led me to examine the meta-principles driving code quality and software arc
 
 The breakthrough came from understanding that everything ultimately transpiles to binary - a series of "can you do this? → yes/no" decisions. This insight shaped my approach: instead of issuing commands, ask focused questions in proper context. Rather than mentally managing complex setups alone, collaborate with AI to devise systematic plans.
 
-### How did you discover these specific constraints work?
+---
+
+</details>
+
+<details>
+<summary>How did you discover these specific constraints work?</summary>
+
+---
 
 Through extensive trial and error. AI systems will always tend to drift even under constraints, but they're significantly more accurate with structured boundaries than without them. You occasionally need to remind the AI of its role to prevent deviation - like managing a well-intentioned toddler that knows the rules but sometimes pushes boundaries trying to satisfy you.
 
 These tools are far from perfect, but they're effective instruments for software development when properly constrained.
 
-### What failures or frustrations shaped this approach?
+---
+
+</details>
+
+<details>
+<summary>What failures or frustrations shaped this approach?</summary>
+
+---
 
 Maintenance hell was the primary driver. I grew tired of responses filled with excessive praise: "You have found the solution!", "You have redefined the laws of physics with your paradigm-shifting script!" This verbose fluff wastes time, tokens, and patience without contributing to productive development.
 
 Instead of venting frustration on social media about AI being "just a dumb tool," I decided to find methods that actually work. My approach may not help everyone, but I hope it benefits those who share similar AI development frustrations.
 
+---
+
+</details>
+
 ## Personal Practice
 
-### How consistently do you follow your own methodology?
+<details>
+<summary>How consistently do you follow your own methodology?</summary>
+
+---
 
 Since creating the documentation, I haven't deviated. Whenever I see the model producing more lines than my methodology restricts, I immediately interrupt generation with a flag: "‼️ ARCHITECTURAL VIOLATION, ADHERE TO PRINCIPLES ‼️" I then provide the method instructions again, depending on how context is stored and which model I'm using.
 
-### What happens when you deviate from it?
+---
+
+</details>
+
+<details>
+<summary>What happens when you deviate from it?</summary>
+
+---
 
 I become genuinely uncomfortable. Once I see things starting to degrade or become tangled, I compulsively need to organize and optimize. Deviation simply isn't an option anymore.
 
-### Which principles do you find hardest to maintain?
+---
+
+</details>
+
+<details>
+<summary>Which principles do you find hardest to maintain?</summary>
+
+---
 
 Not cursing at the AI when it drifts during complex algorithms! But seriously, it's a machine - it's not perfect, and neither are we.
 
+---
+
+</details>
+
 ## AI Development Journey
 
-### When did you start using AI for programming?
+<details>
+<summary>When did you start using AI for programming?</summary>
+
+---
 
 In August 2024, I created a RuneLite theme pack, but one of the plugin overlays didn't match my custom layout. I opened a GitHub issue (creating my first GitHub account to do so) requesting a customization option. The response was: "It's not a priority - if you want it, build it yourself."
 
 I used ChatGPT to guide me through forking RuneLite and creating a plugin. This experience sparked intense interest in underlying software principles rather than just syntax.
 
-### How has your approach evolved over time?
+---
+
+</details>
+
+<details>
+<summary>How has your approach evolved over time?</summary>
+
+---
 
 I view development like a book: syntax is the cover, logic is the content itself. Rather than learning syntax structures, I focused on core meta-principles - how software interacts, how logic flows, different algorithm types. I quickly realized everything reduces to the same foundation: question and answer sequences.
 
 Large code structures are essentially chaotic meetings - one coordinator fielding questions and answers from multiple sources, trying to provide correct responses without mix-ups or misinterpretation. If this applies to human communication, it must apply to software principles.
 
-### What were your biggest mistakes with AI collaboration?
+---
+
+</details>
+
+<details>
+<summary>What were your biggest mistakes with AI collaboration?</summary>
+
+---
 
 Expecting it to intuitively understand my requirements, provide perfect fixes, be completely honest, and act like a true expert. This was all elaborate roleplay that produced poor code. While fine for single-purpose scripts, it failed completely for scalable codebases.
 
 I learned not to feed requirements and hope for the best. Instead, I needed to collaborate actively - create plans, ask for feedback on content clarity, and identify uncertainties. This gradual process taught me the AI's actual capabilities and most effective collaboration methods.
 
+---
+
+</details>
+
 ## Methodology Specifics
 
-### Why 150 lines exactly?
+<details>
+<summary>Why 150 lines exactly?</summary>
+
+---
 
 Multiple benefits: easy readability, clear understanding, modularity enforcement, architectural clarity, simple maintenance, component testing, optimal AI context retention, reusability, and KISS principle adherence.
 
-### How did you determine Phase 0 requirements?
+---
+
+</details>
+
+<details>
+<summary>How did you determine Phase 0 requirements?</summary>
+
+---
 
 From meta-principles of software: if it displays, it must run; if it runs, it can be measured; if it can be measured, it can be optimized; if it can be optimized, it can be reliable; if it can be reliable, it can be trusted.
 
@@ -204,18 +277,127 @@ Regardless of project type, anything requiring architecture needs these foundati
 
 By testing during development, you catch inefficiencies early. Integration from the start means simply hooking up new components and running tests via command line - minimal time investment with actual value returned. I prefer validation and consistency throughout development rather than programming blind.
 
+---
+
+</details>
+
 ## Practical Implementation
 
-### How do you handle projects that don't fit the methodology?
+<details>
+<summary>How do you handle projects that don't fit the methodology?</summary>
+
+---
 
 I adapt them to fit, or if truly impossible, I adjust the method itself. This is one methodology - I can generate countless variations as needed. Having spent 6700+ hours in AI interactions across multiple domains (not just software), I've developed strong system comprehension that enables creating adjusted methodologies on demand.
 
-### What's the learning curve for new users?
+---
+
+</details>
+
+<details>
+<summary>What's the learning curve for new users?</summary>
+
+---
 
 I cannot accurately answer this question. I've learned that I'm neurologically different - what I perceive as easy or obvious isn't always the case for others. This question is better addressed by someone who has actually used this methodology to determine its learning curve.
 
-### When shouldn't someone use this approach?
+---
+
+</details>
+
+<details>
+<summary>When shouldn't someone use this approach?</summary>
+
+---
 
 If you're not serious about projects, despise AI, dislike planning, don't care about modularization, or are just writing simple scripts. However, for anything requiring reliability, I believe this is currently the most effective method.
 
 You still need programming fundamentals to use this methodology effectively - it's significantly more structured than ad-hoc approaches.
+
+---
+
+</details>
+
+---
+
+## Workflow Visualization
+
+```mermaid
+---
+config:
+  layout: elk
+  theme: neo-dark
+---
+flowchart TD
+    A["Project Idea"] --> B["🤖 Stage 1: AI Configuration<br>AI-PREFERENCES.md Custom Instructions"]
+    B --> C["Stage 2: Collaborative Planning<br>Share METHODOLOGY.md"]
+    C --> D["Define Scope & Completion Criteria"]
+    D --> E["Identify Components & Dependencies"]
+    E --> F["Structure Phases Based on Logic"]
+    F --> G["Document Edge Cases - No Implementation"]
+    G --> H["Generate Development Plan with Checkpoints"]
+    H --> I["🔧 Stage 3: Phase 0 Infrastructure<br>MANDATORY BEFORE ANY CODE"]
+    I --> J["Benchmarking Suite + Regression Detection"]
+    J --> K["GitHub Workflows + Quality Gates"]
+    K --> L["Test Suite Infrastructure + Stress Tests"]
+    L --> M["Documentation Generation System"]
+    M --> N["Centralized Configuration + Constants"]
+    N --> O["📁 project_extract.py Setup<br>Single/Multiple File Config"]
+    O --> P["Initial Project State Extraction"]
+    P --> Q["Share Context with AI"]
+    Q --> R["Start Development Session<br>Pre-Session Compliance Audit"]
+    R --> S{"Next Phase Available?"}
+    S -- No --> Z["Project Complete"]
+    S -- Yes --> T["Select Single Component<br>Target ≤150 Lines"]
+    T --> U{"Multi-Language Required?"}
+    U -- Yes --> V["Document Performance Justification<br>Measurable Benefits Required"]
+    V --> W["Request AI Implementation"]
+    U -- No --> W
+    W --> X{"AI Uncertainty Flag?"}
+    X -- ⚠️ Yes --> Y["Request Clarification<br>Provide Additional Context"]
+    Y --> W
+    X -- Clear --> AA["Stage 3: Systematic Implementation"]
+    AA --> BB{"Automated Size Check<br>validate-phase Script"}
+    BB -- >150 Lines --> CC["AUTOMATED: Split Required<br>Maintain SoC Boundaries"]
+    CC --> W
+    BB -- ≤150 Lines --> DD["Incremental Compliance Check<br>DRY/KISS/SoC Validation"]
+    DD --> EE{"Architectural Principles Pass?"}
+    EE -- No --> FF["Flag Specific Violations<br>Reference Methodology"]
+    FF --> W
+    EE -- Yes --> GG["📊 Stage 4: Data-Driven Iteration<br>Run Benchmark Suite + Save Baselines"]
+    GG --> HH["Compare Against Historical Timeline<br>Regression Analysis"]
+    HH --> II{"Performance Gate Pass?"}
+    II -- Regression Detected --> JJ["Share Performance Data<br>Request Optimization"]
+    JJ --> W
+    II -- Pass --> KK["Integration Test<br>Verify System Boundaries"]
+    KK --> LL{"Cross-Platform Validation?"}
+    LL -- Fail --> MM["Address Deployment Constraints<br>Real-World Considerations"]
+    MM --> W
+    LL -- Pass --> NN{"More Components in Phase?"}
+    NN -- Yes --> T
+    NN -- No --> OO["🚦 Phase Quality Gate<br>Full Architecture Audit"]
+    OO --> PP["Production Simulation<br>Resource Cleanup + Load Test"]
+    PP --> QQ{"All Quality Gates Pass?"}
+    QQ -- No --> RR["Document Failed Checkpoints<br>Block Phase Progression"]
+    RR --> T
+    QQ -- Yes --> SS["End Development Session<br>Technical Debt Assessment"]
+    SS --> TT["📁 Extract Updated Project State<br>Generate Fresh Context"]
+    TT --> UU["Phase Results Documentation<br>Metrics + Outcomes + Timeline"]
+    UU --> VV["Update Development Plan<br>Mark Phase Complete"]
+    VV --> S
+    WW["validate-phase<br>AUTOMATED: File Size + Structure"] -.-> BB
+    XX["dry-audit<br>AUTOMATED: Cross-Module Duplication"] -.-> DD
+    YY["CI/CD Workflows<br>AUTOMATED: Merge Gates"] -.-> GG
+    ZZ["Performance Timeline<br>AUTOMATED: Historical Data"] -.-> HH
+    AAA["Dependency Validator<br>AUTOMATED: Import Boundaries"] -.-> KK
+    BBB["Architecture Auditor<br>AUTOMATED: SoC Compliance"] -.-> OO
+    WW -. BUILD FAILURE .-> CC
+    YY -. MERGE BLOCKED .-> JJ
+    BBB -. AUDIT FAILURE .-> RR
+    style Y fill:#7d5f00
+    style CC fill:#770000
+    style FF fill:#7d5f00
+    style JJ fill:#7d5f00
+    style MM fill:#770000
+    style RR fill:#770000
+```
