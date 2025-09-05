@@ -32,7 +32,7 @@
 - Centralized main entry points with modular project layout
 
 **Deterministic Operations:**
-- Synchronous, predictable behavior over async complexity  
+- Synchronous, predictable behavior over async complexity
 - Long-runtime stability over cutting-edge patterns
 - Production stability over development convenience
 - Cross-platform considerations in design decisions
@@ -73,7 +73,7 @@ Every project, regardless of size, must establish these foundational systems bef
 - **JSON Output**: Structured data for automated analysis and CI integration
 - **Timeline Tracking**: Historical performance data across project evolution
 
-### CI/CD Infrastructure  
+### CI/CD Infrastructure
 - **Release Workflows**: Automated versioning, building, and deployment
 - **Regression Detection**: Benchmark comparison on every commit/PR
 - **Quality Gates**: Block merges that fail performance or quality thresholds
@@ -168,7 +168,7 @@ Major Piece A → Major Piece B → Major Piece C
 ```
 ### [Component/Output Name]
 - [ ] [Action producing specific outcome]
-- [ ] [Validation or testing requirement]  
+- [ ] [Validation or testing requirement]
 - [ ] **[CONNECTION]**: [How this integrates with other components]
 - [ ] **[COMPLETE WHEN]**: [Specific, measurable criteria]
 - [ ] **[COMPLIANCE CHECK]**: [DRY/KISS/Architecture validation]
@@ -179,7 +179,7 @@ Major Piece A → Major Piece B → Major Piece C
 
 **Status Indicators:**
 - ✅ **COMPLETED**: Done and validated
-- 🔒 **BLOCKED**: Cannot proceed due to dependency  
+- 🔒 **BLOCKED**: Cannot proceed due to dependency
 - 📋 **READY**: Dependencies met, can start
 - ⚠️ **UNCERTAIN**: Need clarification or decision
 
@@ -187,7 +187,7 @@ Major Piece A → Major Piece B → Major Piece C
 ```
 **PHASE STATUS:**
 - Component A: [result/metric] ✅
-- Component B: [current state] ⚠️  
+- Component B: [current state] ⚠️
 - Overall: [description of current state]
 ```
 
@@ -228,13 +228,13 @@ Major Piece A → Major Piece B → Major Piece C
 **During Development:**
 - [ ] **INCREMENTAL COMPLIANCE**: Check after each significant change
 - [ ] **BENCHMARK INTEGRATION**: New components measured immediately
-- [ ] **DEPENDENCY ALIGNMENT**: Imports match architectural boundaries  
+- [ ] **DEPENDENCY ALIGNMENT**: Imports match architectural boundaries
 - [ ] **EDGE CASE HANDLING**: Document but don't implement without plan
 - [ ] **FEATURE CREEP CHECK**: Question necessity of each addition
 
 **Before Phase Completion:**
 - [ ] **FULL ARCHITECTURE AUDIT**: All principles systematically verified
-- [ ] **PERFORMANCE REGRESSION**: Compare against established baselines  
+- [ ] **PERFORMANCE REGRESSION**: Compare against established baselines
 - [ ] **INTEGRATION VALIDATION**: Components work within system boundaries
 - [ ] **PRODUCTION SIMULATION**: Test under realistic deployment constraints
 ```
@@ -246,7 +246,7 @@ Major Piece A → Major Piece B → Major Piece C
 
 **DRY/KISS Validation:**
 - [ ] No duplicate logic between modules
-- [ ] Each component has single responsibility  
+- [ ] Each component has single responsibility
 - [ ] Complexity justified by measurable benefit
 
 **Architecture Compliance:**
@@ -257,7 +257,7 @@ Major Piece A → Major Piece B → Major Piece C
 
 **Performance Requirements:**
 - [ ] [Component A]: < [X]ms ✅/⚠️/❌
-- [ ] [Component B]: < [X]ms ✅/⚠️/❌  
+- [ ] [Component B]: < [X]ms ✅/⚠️/❌
 - [ ] Memory usage: < [X]MB ✅/⚠️/❌
 - [ ] Regression detection: PASS/FAIL
 
@@ -281,7 +281,7 @@ Major Piece A → Major Piece B → Major Piece C
 - [ ] Run benchmark suite and check gates
 - [ ] Generate compliance report
 
-### `scripts/dry-audit`  
+### `scripts/dry-audit`
 - [ ] Detect duplicate function implementations
 - [ ] Find unused imports and functions
 - [ ] Identify constants that should be centralized
@@ -375,7 +375,7 @@ Major Piece A → Major Piece B → Major Piece C
 
 **During Development:**
 1. **Incremental Validation**: Check compliance after each file
-2. **Performance Monitoring**: Benchmark new components immediately  
+2. **Performance Monitoring**: Benchmark new components immediately
 3. **Dependency Tracking**: Verify imports align with architecture
 4. **Code Quality**: Maintain self-explanatory naming and structure
 
@@ -403,7 +403,7 @@ Major Piece A → Major Piece B → Major Piece C
 
 ### For Each Phase, Define:
 - **Purpose**: Why this phase exists
-- **Prerequisites**: What must be complete first  
+- **Prerequisites**: What must be complete first
 - **Deliverables**: Specific outputs
 - **Success criteria**: How to know it's done
 - **Enforcement checkpoints**: Systematic validation points
@@ -429,7 +429,7 @@ Major Piece A → Major Piece B → Major Piece C
 ```
 
 **Architecture Validation:**
-```markdown  
+```markdown
 - [ ] Centralized configuration used throughout
 - [ ] Constants referenced, no magic numbers
 - [ ] Modular separation maintained with clear boundaries
@@ -464,7 +464,7 @@ Major Piece A → Major Piece B → Major Piece C
 - Self-explanatory function and variable names
 
 **Small Applications:**
-- Strict modular boundaries with clear interfaces  
+- Strict modular boundaries with clear interfaces
 - Centralized configuration and constants
 - Synchronous operations with predictable flow
 - Performance baseline establishment
@@ -480,6 +480,16 @@ Major Piece A → Major Piece B → Major Piece C
 - Maintain architectural principles across language boundaries
 - Unified benchmarking system for all components
 - Consistent error handling patterns across languages
+
+**Domain-Specific Adaptations:**
+
+**Web Development Projects:**
+- **No Inlining**: Styles to separate files, handlers to named functions, configs as constants
+- **File Size Exemption**: Components ≤250 lines (DOM complexity), modules ≤150 lines
+- **Async Permitted**: API calls, user interactions, data fetching only
+- **Error Boundaries**: Network ops, user inputs, third-party integrations
+- **File Colocation**: Component.jsx, Component.module.css, Component.test.js
+- **Component Splitting**: Multiple purposes or testing difficulty
 
 ## Success Metrics
 
@@ -503,7 +513,7 @@ Major Piece A → Major Piece B → Major Piece C
 
 ### Documentation Quality:
 - Enforcement checkpoints prevent architectural drift
-- Quality gates block progression with incomplete work  
+- Quality gates block progression with incomplete work
 - Automated validation catches compliance violations
 - Performance baselines maintained throughout development
 
