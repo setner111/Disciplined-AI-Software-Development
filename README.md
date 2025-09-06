@@ -134,6 +134,17 @@ Use the tool to share a complete or partial project state with the AI system, tr
 
 ---
 
+## [Claude Q&A Documentation](questions_answers/Q-A_CLAUDE_SONNET_4.md)
+
+#### Coverage includes:
+- Methodology understanding and workflow patterns
+- Project initialization and Phase 0 requirements
+- Tool usage and technology stack compatibility
+- Quality enforcement and violation handling
+- User experience across different skill levels
+
+---
+
 # Frequently Asked Questions
 
 ## Origin & Development
