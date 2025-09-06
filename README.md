@@ -69,6 +69,16 @@ The benchmarking suite (built first) provides performance data throughout develo
 
 **Systematic Constraints:** Architectural checkpoints, file size limits, and dependency gates force consistent behavior.
 
+## Example Projects
+
+- **[Discord Bot Template](https://github.com/Varietyz/discord-js-bot-template)** - Production-ready bot foundation with plugin architecture, security, API management, and comprehensive testing. 46 files, all under 150 lines, with benchmarking suite and automated compliance checking. ([View Project Structure](example_project_structures/DISCORDJS_TEMPLATE_PROJECT.md))
+
+- **[PhiCode Runtime](https://github.com/Varietyz/phicode-runtime)** - Programming language runtime engine with transpilation, caching, security validation, and Rust acceleration. Complex system maintaining architectural discipline across 70+ modules. ([View Project Structure](example_project_structures/PHICODE_RUNTIME_PROJECT.md))
+
+- **[PhiPipe](https://github.com/Varietyz/PhiPipe)** - CI/CD regression detection system with statistical analysis, GitHub integration, and concurrent processing. Go-based service handling performance baselines and automated regression alerts. ([View Project Structure](example_project_structures/PHIPIPE_PROJECT.md))
+
+You can compare the methodology principles to the codebase structure to see how the approach translates to working code.
+
 ## Implementation Steps
 
 ### Setup
@@ -110,7 +120,7 @@ python scripts/project_extract.py
 - Tree structure visualization
 - Ready-to-share
 
-*[examples can be found here](scripts/output_example)*
+*[output examples can be found here](scripts/output_example)*
 
 Use the tool to share a complete or partial project state with the AI system, track architectural compliance, and create focused development context.
 
@@ -121,14 +131,6 @@ Use the tool to share a complete or partial project state with the AI system, tr
 **Development Flow:** Systematic planning tends to reduce debugging cycles. Focused implementation helps minimize feature bloat. Performance data supports optimization decisions.
 
 **Code Quality:** Architectural consistency across components, measurable performance characteristics, maintainable structure as projects scale.
-
-## Example
-
-An implementation plan constructed using this methodology can be found in [templates/DISCORDJS-BOT-FOUNDATION.md](templates/DISCORDJS-BOT-FOUNDATION.md) with the completed result at [discord-js-bot-template](https://github.com/Varietyz/discord-js-bot-template).
-
-The first 2 commits show the entire foundation outlined in the planning template. This was generated in a single session following the four-stage process. The implementation covers 46 files with modular architecture.
-
-You can compare the methodology principles to the codebase structure to see how the approach translates to working code.
 
 ---
 
