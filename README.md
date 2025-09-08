@@ -31,10 +31,10 @@ The methodology uses four stages with systematic constraints and validation chec
 ## The Four Stages
 
 ### Stage 1: AI Configuration
-Set up your AI model's custom instructions using [AI-PREFERENCES.md](AI-PREFERENCES.md). This establishes behavioral constraints and uncertainty flagging with ⚠️ indicators when the AI lacks certainty.
+Set up your AI model's custom instructions using [AI-PREFERENCES.XML](XML/AI-PREFERENCES.XML). This establishes behavioral constraints and uncertainty flagging with ⚠️ indicators when the AI lacks certainty.
 
 ### Stage 2: Collaborative Planning
-Share [METHODOLOGY.md](METHODOLOGY.md) with the AI to structure your project plan. Work together to:
+Share [METHODOLOGY.XML](XML/METHODOLOGY.XML) with the AI to structure your project plan. Work together to:
 
 1. Define scope and completion criteria
 2. Identify components and dependencies
@@ -82,8 +82,8 @@ You can compare the methodology principles to the codebase structure to see how 
 ## Implementation Steps
 
 ### Setup
-1. Configure AI with [AI-PREFERENCES.md](AI-PREFERENCES.md) as custom instructions
-2. Share [METHODOLOGY.md](METHODOLOGY.md) for planning session
+1. Configure AI with [AI-PREFERENCES.XML](XML/AI-PREFERENCES.XML) as custom instructions
+2. Share [METHODOLOGY.XML](XML/METHODOLOGY.XML) for planning session
 3. Collaborate on project structure and phases
 4. Generate systematic development plan
 
@@ -151,6 +151,51 @@ All models were asked the **exact same questions** using the methodology documen
 - Tool usage and technology stack compatibility
 - Quality enforcement and violation handling
 - User experience across different skill levels
+
+---
+
+## Learning the Ropes
+
+### Getting Started
+
+Share the three core documents with your AI model:
+- **[AI-PREFERENCES.XML](XML/AI-PREFERENCES.XML)** - Behavioral constraints
+- **[METHODOLOGY.XML](XML/METHODOLOGY.XML)** - Technical framework
+- **[README.XML](XML/README.XML)** - Implementation guidance
+
+*The current document provides human-readable formatting for documentation review. For machine parsing, use the [XML](XML/README.XML) format.*
+
+**Ask targeted questions:**
+- "How would Phase 0 apply to [project type]?"
+- "What does the 150-line constraint mean for [specific component]?"
+- "How should I structure phases for [project description]?"
+- "Can you help decompose this project using the methodology?"
+
+*This will help foster understanding of how your AI model interprets the guidelines.*
+
+### Experimental Modification
+
+**Test constraint variations:**
+- File size limits (100 vs 150 vs 200 lines)
+- Communication constraint adjustments
+- Phase 0 requirement modifications
+- Quality gate threshold changes
+
+**Analyze outcomes:**
+- Document behavior changes and development results
+- Compare debugging time across different approaches
+- Track architectural compliance over extended sessions
+- Monitor context retention and behavioral drift
+
+*You can ask the model to analyze the current session and identify violations. Additionally, you want to know which adjustments could be beneficial for further enforcement or to detect ambiguity in the constraints.*
+
+**Collaborative refinement:**
+Work with your AI to identify improvements based on your context. Treat constraint changes as experiments and measure their impact on collaboration effectiveness, code quality, and development velocity.
+
+**Progress indicators:**
+- Reduced specific violations over time
+- Consistent file size compliance without reminders
+- Sustained AI behavioral adherence through extended sessions
 
 ---
 

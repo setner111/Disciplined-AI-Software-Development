@@ -16,6 +16,10 @@
 
 ---
 
+For optimal machine parsing, use the **[METHODOLOGY.XML](XML/METHODOLOGY.XML)** document as context, while the current document provides human-readable formatting for documentation review.
+
+---
+
 # Project Documentation Methodology
 
 ## Core Architectural Principles
@@ -62,6 +66,15 @@
 - Surgical approach: target exact problem with minimal code
 - Multi-language use only when justified by measurable gains
 
+**Web Development Adaptations:**
+- No inlining: Styles to separate files, handlers to named functions, configurations as constants
+- File size accommodation: Components ≤250 lines (DOM complexity), modules ≤150 lines
+- Async operations: API calls, user interactions, data fetching only
+- Error boundaries: Network operations, user inputs, third-party integrations
+- File colocation: Component.jsx, Component.module.css, Component.test.js
+- Component splitting: Multiple purposes or testing difficulty
+- Implementation protocol: Request architectural compliance clarification for code generation tasks
+
 ## Basic Must-Haves (Phase 0 - Always First)
 
 Every project, regardless of size, must establish these foundational systems before any feature development:
@@ -82,6 +95,7 @@ Every project, regardless of size, must establish these foundational systems bef
 ### Core Architecture
 - **Centralized Entry Points**: Single main module that orchestrates everything
 - **Configuration Management**: Externalized settings with validation
+- **Centralized Logging**: Error handling and diagnostic output with JSON integration
 - **Dependency Injection**: Clean separation and testable components
 
 ### Testing Infrastructure
