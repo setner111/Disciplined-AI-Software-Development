@@ -242,8 +242,8 @@ flowchart TD
     B -->|Advanced| E[DeepSeek-V3]
     
     A --> F{Project Stage?}
-    F -->|New Project| G[Claude Sonnet 4]
-    F -->|Ongoing Development| H[Grok 3]
+    F -->|Development| G[Claude Sonnet 4]
+    F -->|Project Planning| H[Grok 3]
     F -->|Learning Methodology| I[DeepSeek-V3]
     
     A --> J{Priority?}
