@@ -134,10 +134,19 @@ Use the tool to share a complete or partial project state with the AI system, tr
 
 ---
 
-## [Claude Q&A Documentation](questions_answers/Q-A_CLAUDE_SONNET_4.md)
+## LLM Models - [Q&A Documentation](questions_answers/)
+
+Explore the detailed Q&A for each AI model:
+*[Grok 3](questions_answers/Q-A_GROK_3.md) , [Claude Sonnet 4](questions_answers/Q-A_CLAUDE_SONNET_4.md) , [DeepSeek-V3](questions_answers/Q-A_DEEPSEEK-V3.md) , [Gemini 2.5 Flash](questions_answers/Q-A_GEMINI_2.5_FLASH.md)*
+
+All models were asked the **exact same questions** using the methodology documents as file uploads. This evaluation focuses on **methodology understanding and operational behavior**, no code was generated. The Q&A documents capture responses across workflow patterns, tool usage, communication adherence, and collaborative context retention. Full evaluation results and comparative analysis are available in [Methodology Comprehension Analysis: Model Evaluation](questions_answers/Q-A_COMPREHENSION_ANALYSIS.md).
+
+*🚩 Note: This analysis does not include any code generation.*
 
 #### Coverage includes:
 - Methodology understanding and workflow patterns
+- Context retention and collaborative interaction
+- Communication adherence and AI preference compliance
 - Project initialization and Phase 0 requirements
 - Tool usage and technology stack compatibility
 - Quality enforcement and violation handling

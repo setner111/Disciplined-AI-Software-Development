@@ -361,7 +361,7 @@ The methodology requires me to build the foundation systems, but you drive the r
 </details>
 
 <details>
-<summary><strong>Q: how do you handle refactors?</strong></summary>
+<summary><strong>Q: How do you handle refactors?</strong></summary>
 
 ---
 
