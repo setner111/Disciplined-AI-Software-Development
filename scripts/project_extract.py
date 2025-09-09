@@ -44,10 +44,10 @@ import os
 SEPARATE_FILES = False
 #SEPARATE_FILES = True  # Uncomment for multiple output files
 
-INCLUDE_PATHS = ['src', 'tests', 'scripts', 'data', 'package.json', '.env.template', '.github']
-EXCLUDE_PATTERNS = ['phicode.egg-info', '__pycache__', '.(φ)cache', '.pypirc', 'node_modules', '.git']
+INCLUDE_PATHS = ['example_workflow']
+EXCLUDE_PATTERNS = ['phicode.egg-info', '__pycache__', '.(φ)cache', '.pypirc', 'node_modules', '.git', 'scaffold.py', 'EXAMPLE_PROJECT.md', 'BENCH_DASH.md', 'SNIPPETS.md']
 OUTPUT_DIR = '.Project_Extraction'
-OUTPUT_FILE = 'THE_PROJECT.md'
+OUTPUT_FILE = 'example_workflow/EXAMPLE_PROJECT.md'
 
 # ============================================================================
 # FILE TYPE MAPPINGS

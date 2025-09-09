@@ -31,10 +31,10 @@ The methodology uses four stages with systematic constraints and validation chec
 ## The Four Stages
 
 ### Stage 1: AI Configuration
-Set up your AI model's custom instructions using [AI-PREFERENCES.XML](XML/AI-PREFERENCES.XML). This establishes behavioral constraints and uncertainty flagging with ⚠️ indicators when the AI lacks certainty.
+Set up your AI model's custom instructions using [AI-PREFERENCES.XML](formats/software_development/XML/AI-PREFERENCES.XML). This establishes behavioral constraints and uncertainty flagging with ⚠️ indicators when the AI lacks certainty.
 
 ### Stage 2: Collaborative Planning
-Share [METHODOLOGY.XML](XML/METHODOLOGY.XML) with the AI to structure your project plan. Work together to:
+Share [METHODOLOGY.XML](formats/software_development/XML/METHODOLOGY.XML) with the AI to structure your project plan. Work together to:
 
 1. Define scope and completion criteria
 2. Identify components and dependencies
@@ -81,9 +81,15 @@ You can compare the methodology principles to the codebase structure to see how 
 
 ## Implementation Steps
 
+*Note: .xml format is a guideline; you should experiment with different formats (e.g., .json, .yaml, .md) for different use cases.*
+*Each format emphasizes different domains. For example, .md prompts are effective for documentation: because the AI recognizes the structure, it tends to continue it naturally.*
+*.xml and .json provide a code-like structure. This tends to strengthen code generation while reducing unnecessary jargon, resulting in more structured outputs.*
+*Additionally, I’ve included some experimental prompts to illustrate differences when using less common formats or unusual practices.*
+*[View Prompt Formats](prompt_formats)*
+
 ### Setup
-1. Configure AI with [AI-PREFERENCES.XML](XML/AI-PREFERENCES.XML) as custom instructions
-2. Share [METHODOLOGY.XML](XML/METHODOLOGY.XML) for planning session
+1. Configure AI with [AI-PREFERENCES.XML](formats/software_development/XML/AI-PREFERENCES.XML) as custom instructions
+2. Share [METHODOLOGY.XML](formats/software_development/XML/METHODOLOGY.XML) for planning session
 3. Collaborate on project structure and phases
 4. Generate systematic development plan
 
@@ -159,11 +165,11 @@ All models were asked the **exact same questions** using the methodology documen
 ### Getting Started
 
 Share the three core documents with your AI model:
-- **[AI-PREFERENCES.XML](XML/AI-PREFERENCES.XML)** - Behavioral constraints
-- **[METHODOLOGY.XML](XML/METHODOLOGY.XML)** - Technical framework
-- **[README.XML](XML/README.XML)** - Implementation guidance
+- **[AI-PREFERENCES.XML](formats/software_development/XML/AI-PREFERENCES.XML)** - Behavioral constraints
+- **[METHODOLOGY.XML](formats/software_development/XML/METHODOLOGY.XML)** - Technical framework
+- **[README.XML](formats/software_development/XML/README.XML)** - Implementation guidance
 
-*The current document provides human-readable formatting for documentation review. For machine parsing, use the [XML](XML/README.XML) format.*
+*This current document provides human-readable formatting for documentation review. For machine parsing, use the [XML](formats/software_development/XML/README.XML) format.*
 
 **Ask targeted questions:**
 - "How would Phase 0 apply to [project type]?"
@@ -396,8 +402,8 @@ config:
   theme: neo-dark
 ---
 flowchart TD
-    A["Project Idea"] --> B["🤖 Stage 1: AI Configuration<br>AI-PREFERENCES.md Custom Instructions"]
-    B --> C["Stage 2: Collaborative Planning<br>Share METHODOLOGY.md"]
+    A["Project Idea"] --> B["🤖 Stage 1: AI Configuration<br>AI-PREFERENCES.XML Custom Instructions"]
+    B --> C["Stage 2: Collaborative Planning<br>Share METHODOLOGY.XML"]
     C --> D["Define Scope & Completion Criteria"]
     D --> E["Identify Components & Dependencies"]
     E --> F["Structure Phases Based on Logic"]
