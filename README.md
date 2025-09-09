@@ -169,7 +169,7 @@ Share the three core documents with your AI model:
 - **[METHODOLOGY.XML](prompt_formats/software_development/XML/METHODOLOGY.XML)** - Technical framework
 - **[README.XML](prompt_formats/software_development/XML/README.XML)** - Implementation guidance
 
-*This current document provides human-readable formatting for documentation review. For machine parsing, use the [XML](formats/software_development/XML/README.XML) format.*
+*This current document provides human-readable formatting for documentation review. For machine parsing, use the [XML](prompt_formats/software_development/XML/README.XML) format.*
 
 **Ask targeted questions:**
 - "How would Phase 0 apply to [project type]?"
