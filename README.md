@@ -31,10 +31,10 @@ The methodology uses four stages with systematic constraints and validation chec
 ## The Four Stages
 
 ### Stage 1: AI Configuration
-Set up your AI model's custom instructions using [AI-PREFERENCES.XML](formats/software_development/XML/AI-PREFERENCES.XML). This establishes behavioral constraints and uncertainty flagging with ⚠️ indicators when the AI lacks certainty.
+Set up your AI model's custom instructions using [AI-PREFERENCES.XML](prompt_formats/software_development/XML/AI-PREFERENCES.XML). This establishes behavioral constraints and uncertainty flagging with ⚠️ indicators when the AI lacks certainty.
 
 ### Stage 2: Collaborative Planning
-Share [METHODOLOGY.XML](formats/software_development/XML/METHODOLOGY.XML) with the AI to structure your project plan. Work together to:
+Share [METHODOLOGY.XML](prompt_formats/software_development/XML/METHODOLOGY.XML) with the AI to structure your project plan. Work together to:
 
 1. Define scope and completion criteria
 2. Identify components and dependencies
@@ -88,8 +88,8 @@ You can compare the methodology principles to the codebase structure to see how 
 *[View Prompt Formats](prompt_formats)*
 
 ### Setup
-1. Configure AI with [AI-PREFERENCES.XML](formats/software_development/XML/AI-PREFERENCES.XML) as custom instructions
-2. Share [METHODOLOGY.XML](formats/software_development/XML/METHODOLOGY.XML) for planning session
+1. Configure AI with [AI-PREFERENCES.XML](prompt_formats/software_development/XML/AI-PREFERENCES.XML) as custom instructions
+2. Share [METHODOLOGY.XML](prompt_formats/software_development/XML/METHODOLOGY.XML) for planning session
 3. Collaborate on project structure and phases
 4. Generate systematic development plan
 
