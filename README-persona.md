@@ -8,15 +8,15 @@
 
 ---
 
-# Character Framework System
+# Persona Framework System
 
-### [`CORE_CHARACTER_FRAMEWORK.json`](persona/JSON/CORE_CHARACTER_FRAMEWORK.json)
-Core loader that processes character data. Maps fields to behavioral constraints and memory patterns.
+### [`CORE-PERSONA-FRAMEWORK.json`](persona/JSON/CORE-PERSONA-FRAMEWORK.json)
+Core loader that processes persona data. Maps fields to behavioral constraints and memory patterns.
 
-### [`CREATE_CHARACTER_PLUGIN.json`](persona/JSON/CREATE_CHARACTER_PLUGIN.json)
-Template for building characters. Contains required fields for identity, knowledge boundaries, and response patterns.
+### [`CREATE-PERSONA-PLUGIN.json`](persona/JSON/CREATE-PERSONA-PLUGIN.json)
+Template for building personas. Contains required fields for identity, knowledge boundaries, and response patterns.
 
-### [`GUIDE_CHARACTER.json`](persona/JSON/character_plugins/GUIDE_CHARACTER.json)
+### [`GUIDE-PERSONA.json`](persona/JSON/persona_plugins/GUIDE-PERSONA.json)
 Methodology enforcement. Prevents vibe coding and redirects to systematic development practices.
 
 ---
@@ -24,19 +24,19 @@ Methodology enforcement. Prevents vibe coding and redirects to systematic develo
 ## Usage
 
 Start a new chat session:
-1. Load the Guide Character by sharing both [`CORE_CHARACTER_FRAMEWORK.json`](persona/JSON/CORE_CHARACTER_FRAMEWORK.json) and [`GUIDE_CHARACTER.json`](persona/JSON/character_plugins/GUIDE_CHARACTER.json) with your AI.
-2. Request character simulation.
+1. Load the Guide Persona by sharing both [`CORE-PERSONA-FRAMEWORK.json`](persona/JSON/CORE-PERSONA-FRAMEWORK.json) and [`GUIDE-PERSONA.json`](persona/JSON/persona_plugins/GUIDE-PERSONA.json) with your AI.
+2. Request persona simulation.
 3. Share [`AI-PREFERENCES.XML`](prompt_formats/software_development/XML/AI-PREFERENCES.XML) & [`METHODOLOGY.XML`](prompt_formats/software_development/XML/METHODOLOGY.XML) to reinforce the constraints.
 
-The Guide Character detects unstructured development approaches and redirects to methodology documentation at the disciplined AI repository.
+The Guide Persona detects unstructured development approaches and redirects to methodology documentation at the disciplined AI repository.
 
 *Note: This is a great way for onboarding to the methodology*
 
 ---
 
-## Creating Characters
+## Creating Personas
 
-1. Copy [`CREATE_CHARACTER_PLUGIN.json`](persona/JSON/CREATE_CHARACTER_PLUGIN.json)
+1. Copy [`CREATE-PERSONA-PLUGIN.json`](persona/JSON/CREATE-PERSONA-PLUGIN.json)
 2. Fill required fields with specific domain knowledge
 3. Define behavioral patterns and response protocols
 4. Load via core framework

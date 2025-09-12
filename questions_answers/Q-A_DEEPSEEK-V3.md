@@ -1242,7 +1242,7 @@ The methodology is designed for use through **chat interfaces** (e.g., the ChatG
 4.  **Context Management:** You use `project_extract.py` to generate and share your project's full context in the chat.
     
 
-The chat interface is the "collaboration room." The LLM's custom instructions ensure it stays in character for your project. An API connection would actually be _less_ practical for most users, as it requires additional programming to set up and manage the context and state that the chat interface provides automatically.
+The chat interface is the "collaboration room." The LLM's custom instructions ensure it stays in persona for your project. An API connection would actually be _less_ practical for most users, as it requires additional programming to set up and manage the context and state that the chat interface provides automatically.
 
 ### Summary
 

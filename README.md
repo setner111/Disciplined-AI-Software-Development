@@ -164,6 +164,12 @@ All models were asked the **exact same questions** using the methodology documen
 
 ### Getting Started
 
+Share the 2 persona documents with your AI model & ask to simulate the persona:
+- **[CORE-PERSONA-FRAMEWORK.json](persona/JSON/CORE-PERSONA-FRAMEWORK.json)** - Persona enforcement
+**[GUIDE-PERSONA.json](persona/JSON/persona_plugins/GUIDE-PERSONA.json)** - Methodology Guide (Avoids to participate in Vibe Coding)
+
+*[README](README-persona.md): To create your own specialized persona you can share the [CREATE-PERSONA-PLUGIN.json](persona/JSON/CREATE-PERSONA-PLUGIN.json) document with your AI model and specify which persona you would like to create.*
+
 Share the three core documents with your AI model:
 - **[AI-PREFERENCES.XML](prompt_formats/software_development/XML/AI-PREFERENCES.XML)** - Behavioral constraints
 - **[METHODOLOGY.XML](prompt_formats/software_development/XML/METHODOLOGY.XML)** - Technical framework
