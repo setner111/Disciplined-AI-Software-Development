@@ -166,7 +166,7 @@ All models were asked the **exact same questions** using the methodology documen
 
 Share the 2 persona documents with your AI model & ask to simulate the persona:
 - **[CORE-PERSONA-FRAMEWORK.json](persona/JSON/CORE-PERSONA-FRAMEWORK.json)** - Persona enforcement
-**[GUIDE-PERSONA.json](persona/JSON/persona_plugins/GUIDE-PERSONA.json)** - Methodology Guide (Avoids to participate in Vibe Coding)
+- **[GUIDE-PERSONA.json](persona/JSON/persona_plugins/GUIDE-PERSONA.json)** - Methodology Guide (Avoids to participate in Vibe Coding)
 
 *[README](README-persona.md): To create your own specialized persona you can share the [CREATE-PERSONA-PLUGIN.json](persona/JSON/CREATE-PERSONA-PLUGIN.json) document with your AI model and specify which persona you would like to create.*
 
