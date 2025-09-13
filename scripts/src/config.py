@@ -7,12 +7,14 @@ SEPARATE_FILES = False
 INCLUDE_PATHS = [
     'example_project_structures',
     'integrations',
+    'persona',
     'prompt_formats',
     'scripts',
     'templates',
     'README.md',
     'METHODOLOGY.md',
-    'AI-PREFERENCES.md'
+    'AI-PREFERENCES.md',
+    'README-persona.md'
 ]
 EXCLUDE_PATTERNS = [
     'phicode.egg-info',
