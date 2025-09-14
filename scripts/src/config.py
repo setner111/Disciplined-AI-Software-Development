@@ -11,10 +11,8 @@ INCLUDE_PATHS = [
     'prompt_formats',
     'scripts',
     'templates',
+    'mermaid_svg',
     'README.md',
-    'METHODOLOGY.md',
-    'AI-PREFERENCES.md',
-    'README-persona.md'
 ]
 EXCLUDE_PATTERNS = [
     'phicode.egg-info',

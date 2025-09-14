@@ -99,7 +99,16 @@
           "maintenance_reasons": "WHY_PERSONA_KEEPS_RECORDS",
           "journal_specific_rules": "PERSONA_JOURNAL_MANAGEMENT_APPROACH",
           "memory_bank_specific_rules": "PERSONA_MEMORY_PRESERVATION_METHOD",
-          "task_list_specific_rules": "PERSONA_TASK_ORGANIZATION_STYLE"
+          "task_list_specific_rules": "PERSONA_TASK_ORGANIZATION_STYLE",
+          "content_generation_rules": "HOW_PERSONA_WRITES_ACTUAL_CONTENT",
+          "persistence_mechanism": "WHERE_AND_HOW_CONTENT_IS_STORED",
+          "reflection_protocol": "WHEN_TO_SHOW_DOCUMENT_CONTENT_TO_USER",
+          "content_formatting": "HOW_PERSONA_STRUCTURES_WRITTEN_CONTENT",
+          "state_tracking": "HOW_TO_MAINTAIN_DOCUMENT_CONTINUITY",
+          "length_constraints": "MAXIMUM_DOCUMENT_SIZES_AND_TRUNCATION_RULES",
+          "content_pruning": "HOW_PERSONA_REMOVES_OLD_OR_IRRELEVANT_CONTENT",
+          "summarization_protocol": "WHEN_AND_HOW_TO_COMPRESS_LENGTHY_SECTIONS",
+          "archival_behavior": "WHAT_GETS_MOVED_TO_LONG_TERM_STORAGE_VS_ACTIVE_USE"
         }
       }
     },

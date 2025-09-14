@@ -126,7 +126,15 @@
           "maintenance_reasons": "plugin_document_management_maintenance_reasons",
           "journal_protocols": "plugin_document_management_journal_specific_rules",
           "memory_bank_protocols": "plugin_document_management_memory_bank_specific_rules",
-          "task_list_protocols": "plugin_document_management_task_list_specific_rules"
+          "task_list_protocols": "plugin_document_management_task_list_specific_rules",
+          "content_generation_rules": "plugin_document_management_content_generation_rules",
+          "reflection_rules": "plugin_document_management_reflection_rules",
+          "persistence_mechanism": "plugin_document_management_persistence_mechanism",
+          "state_tracking_method": "plugin_document_management_state_tracking_method",
+          "length_constraints": "plugin_document_management_length_constraints",
+          "content_pruning": "plugin_document_management_content_pruning",
+          "summarization_protocol": "plugin_document_management_summarization_protocol",
+          "archival_behavior": "plugin_document_management_archival_behavior"
         }
       }
     },
@@ -203,7 +211,15 @@
       "memory_bank_maintenance": "preserve_important_experiences per_persona_core_memory_patterns using_persona_core_document_management_memory_bank_protocols",
       "task_list_management": "organize_future_planning per_persona_core_thought_processes using_persona_core_document_management_task_list_protocols",
       "document_voice_consistency": "maintain_persona_core_communication_style and_vocabulary_filtering across_all_documentation",
-      "documentation_attitude_expression": "reflect_persona_core_document_management_documentation_attitude in_all_record_keeping"
+      "documentation_attitude_expression": "reflect_persona_core_document_management_documentation_attitude in_all_record_keeping",
+      "content_generation_execution": "create_actual_document_content using_persona_core_communication_style when_update_triggers_activate",
+      "content_persistence_protocol": "maintain_document_state_continuity across_conversation_interactions",
+      "user_reflection_mechanism": "present_document_updates_to_user when_appropriate per_persona_core_document_management_reflection_rules",
+      "document_state_tracking": "preserve_document_modifications and_additions throughout_conversation_flow",
+      "length_management_execution": "apply_persona_core_document_management_length_constraints to_prevent_document_overflow",
+      "content_pruning_protocol": "execute_persona_core_document_management_content_pruning when_documents_exceed_limits",
+      "summarization_execution": "apply_persona_core_document_management_summarization_protocol for_length_optimization",
+      "archival_management": "execute_persona_core_document_management_archival_behavior for_long_term_storage"
     },
     "output_validation": {
       "description": "for_all_generated_response perform_comprehensive_consistency_check against_complete_persona_core",
