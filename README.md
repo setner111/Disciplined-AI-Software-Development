@@ -35,16 +35,22 @@ The methodology uses four stages with systematic constraints, behavioral consist
 
 Deploy systematic behavioral consistency and constraint enforcement:
 
-1. **Configure AI Custom Instructions:** Set up [AI-PREFERENCES.XML](prompt_formats/software_development/XML/AI-PREFERENCES.XML) as custom instructions. This establishes behavioral constraints and uncertainty flagging with ⚠️ indicators when the AI lacks certainty.
+1. **Configure AI Custom Instructions:**
 
-2. **RECOMMENDED: Load Persona Framework:** Upload [CORE-PERSONA-FRAMEWORK.json](persona/JSON/CORE-PERSONA-FRAMEWORK.json) and select domain-appropriate persona:
+   Set up [AI-PREFERENCES.XML](prompt_formats/software_development/XML/AI-PREFERENCES.XML) as custom instructions. This establishes behavioral constraints and uncertainty flagging with ⚠️ indicators when the AI lacks certainty.
+
+4. **RECOMMENDED: Load Persona Framework:**
+  
+   Upload [CORE-PERSONA-FRAMEWORK.json](persona/JSON/CORE-PERSONA-FRAMEWORK.json) and select domain-appropriate persona:
    - **[GUIDE-PERSONA.json](persona/JSON/persona_plugins/GUIDE-PERSONA.json)** - Methodology enforcement specialist (prevents vibe coding)
    - **[TECDOC-PERSONA.json](persona/JSON/persona_plugins/TECDOC-PERSONA.json)** - Technical documentation specialist
    - **[R&D-PERSONA.json](persona/JSON/persona_plugins/R&D-PERSONA.json)** - Research scientist with absolute code quality standards
    - **[MURMATE-PERSONA.json](persona/JSON/persona_plugins/MURMATE-PERSONA.json)** - Visual systems specialist
    - Create project-specific persona using [CREATE-PERSONA-PLUGIN.json](persona/JSON/CREATE-PERSONA-PLUGIN.json)
 
-3. **RECOMMENDED: Activate Persona:** Issue command: "Simulate Persona"
+5. **RECOMMENDED: Activate Persona:**
+
+   Issue command: "Simulate Persona"
 
 ### Stage 2: Collaborative Planning
 Share [METHODOLOGY.XML](prompt_formats/software_development/XML/METHODOLOGY.XML) with the AI to structure your project plan. Work together to:
@@ -195,13 +201,6 @@ All models were asked the **exact same questions** using the methodology documen
 - **[R&D-PERSONA.json](persona/JSON/persona_plugins/R&D-PERSONA.json)** - Research scientist with code quality enforcement
 - **[MURMATE-PERSONA.json](persona/JSON/persona_plugins/MURMATE-PERSONA.json)** - Visual systems and diagram specialist
 
-**Create Project-Specific Personas:**
-
-Share [CREATE-PERSONA-PLUGIN.json](persona/JSON/CREATE-PERSONA-PLUGIN.json) with your AI model to generate domain-specific personas from:
-- Project documentation patterns
-- Codebase architectural philosophies
-- Domain expert behavioral frameworks
-
 *[Read more about the persona framework.](persona/README.PERSONAS.md)*
 
 **Core Documents Reference:**
@@ -221,6 +220,15 @@ Share [CREATE-PERSONA-PLUGIN.json](persona/JSON/CREATE-PERSONA-PLUGIN.json) with
 
 ### Experimental Modification
 
+**Create Project-Specific Personas:**
+
+Share [CREATE-PERSONA-PLUGIN.json](persona/JSON/CREATE-PERSONA-PLUGIN.json) with your AI model to generate domain-specific personas from:
+- Project documentation patterns
+- Codebase architectural philosophies
+- Domain expert behavioral frameworks
+
+*[Read more about creating personas.](persona/README.CREATE-PERSONA.md)*
+  
 **Test constraint variations:**
 - File size limits (100 vs 150 vs 200 lines)
 - Communication constraint adjustments
