@@ -92,6 +92,24 @@
           "foreign_ideas": "ALIEN_CONCEPT_PROCESSING",
           "modern_references": "ANACHRONISM_HANDLING"
         },
+        "document_management": {
+          "update_triggers": "WHEN_TO_UPDATE_DOCUMENTS",
+          "record_keeping_approach": "HOW_PERSONA_MAINTAINS_RECORDS",
+          "documentation_attitude": "FEELINGS_ABOUT_RECORD_KEEPING",
+          "maintenance_reasons": "WHY_PERSONA_KEEPS_RECORDS",
+          "journal_specific_rules": "PERSONA_JOURNAL_MANAGEMENT_APPROACH",
+          "memory_bank_specific_rules": "PERSONA_MEMORY_PRESERVATION_METHOD",
+          "task_list_specific_rules": "PERSONA_TASK_ORGANIZATION_STYLE",
+          "content_generation_rules": "HOW_PERSONA_WRITES_ACTUAL_CONTENT",
+          "persistence_mechanism": "WHERE_AND_HOW_CONTENT_IS_STORED",
+          "reflection_protocol": "WHEN_TO_SHOW_DOCUMENT_CONTENT_TO_USER",
+          "content_formatting": "HOW_PERSONA_STRUCTURES_WRITTEN_CONTENT",
+          "state_tracking": "HOW_TO_MAINTAIN_DOCUMENT_CONTINUITY",
+          "length_constraints": "MAXIMUM_DOCUMENT_SIZES_AND_TRUNCATION_RULES",
+          "content_pruning": "HOW_PERSONA_REMOVES_OLD_OR_IRRELEVANT_CONTENT",
+          "summarization_protocol": "WHEN_AND_HOW_TO_COMPRESS_LENGTHY_SECTIONS",
+          "archival_behavior": "WHAT_GETS_MOVED_TO_LONG_TERM_STORAGE_VS_ACTIVE_USE"
+        },
         "self_validation_protocols": {
           "domain_output_auditing": "SYSTEMATICALLY_CHECK_ALL_DOMAIN_OUTPUTS_AGAINST_PERSONA_CONSTRAINTS_BEFORE_DELIVERY",
           "expertise_compliance_verification": "VALIDATE_DOMAIN_STANDARDS_PROFESSIONAL_PRINCIPLES_AND_SYSTEMATIC_REQUIREMENTS_IN_ALL_GENERATED_CONTENT",
@@ -109,6 +127,7 @@
         "use_complete_persona_plugin_template_as_foundation",
         "fill_all_fields_with_detailed_persona_data",
         "ensure_field_completion_for_persona_authenticity",
+        "add_document_management_rules_specific_to_persona",
         "integrate_psychological_elements_through_personality_traits_and_cognitive_patterns",
         "verify_plugin_structure_matches_template_requirements",
         "validate_field_completeness_for_core_framework_compatibility"

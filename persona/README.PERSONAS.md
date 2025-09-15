@@ -122,6 +122,9 @@ All persona plugins must include complete field mapping:
 - `thought_processes`: Decision framework, problem solving, skepticism
 - `confusion_responses`: Helpful, frustrated, dismissal, incomprehension patterns
 - `vocabulary_filtering`: Forbidden terms, preferred alternatives, speech patterns
+- `self_validation`: Domain output auditing, expertise compliance verification, persona adherence checking, violation detection system
+
+**Included in [JSON-DOC](JSON-DOC)**.
 - `document_management`: Update triggers, record keeping, maintenance protocols
 
 ### Behavioral Consistency

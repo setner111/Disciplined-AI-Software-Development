@@ -14,6 +14,8 @@
 
 The [CREATE-PERSONA-PLUGIN.json](JSON/CREATE-PERSONA-PLUGIN.json) framework enables AI systems to analyze source materials and generate personas. Users provide materials and guide persona development through iterative refinement.
 
+*Note: To create personas that keep documentation about session progression, create with the [JSON-DOC/CREATE-PERSONA-PLUGIN.json](JSON-DOC/CREATE-PERSONA-PLUGIN.json)*
+
 ## Source Material Analysis
 
 ### Input Materials

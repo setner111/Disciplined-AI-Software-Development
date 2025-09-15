@@ -35,7 +35,7 @@ PURPOSE:
     3. Generate systematic documentation for methodology adherence
     4. Create focused development context for AI sessions
 """
-from src.extractor import ProjectExtractor
+from src.extraction.extractor import ProjectExtractor
 
 def main():
     extractor = ProjectExtractor()
